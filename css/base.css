@@ -1,0 +1,45 @@
+/* ====== TIPOGRAFÍA GLOBAL ====== */
+html {
+  font-size: 16px; /* tamaño base */
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 1rem; /* 16px */
+  line-height: 1.6;
+  color: var(--color-text);
+  background: var(--color-bg);
+  margin: 0;
+}
+
+/* ====== TITULOS ====== */
+h1 {
+  font-size: 2rem;   /* 32px */
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.5rem; /* 24px */
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: .75rem;
+}
+
+h3 {
+  font-size: 1.25rem; /* 20px */
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: .5rem;
+}
+
+/* ====== TEXTO ====== */
+p, li, label, input, select, button {
+  font-size: 1rem;   /* 16px */
+}
+
+small, .note {
+  font-size: 0.875rem; /* 14px */
+  color: var(--color-muted);
+}
